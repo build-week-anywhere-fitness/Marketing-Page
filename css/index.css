@@ -126,3 +126,40 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+.main-content {
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 800px;
+}
+.first {
+  background-image: url(../img/track.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.first h1 {
+  font-size: 4rem;
+}
+.first h1 #anywhere {
+  font-family: 'Pacifico', cursive;
+  font-size: 7rem;
+}
+.first p {
+  font-size: 2rem;
+}
+.nav {
+  background-color: black;
+  width: 100%;
+}
+.nav a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
